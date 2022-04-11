@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-11T10:53:10.659Z",
+        "line": 3,
+        "name": "Verification of the URL",
+        "description": "",
+        "id": "feature-to-test-opening-the-browser-functionality;verification-of-the-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2083177600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDefinition.Sample.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1858608900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the \"https://www.google.com//\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com//\"",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.Sample.enter_the(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 638419800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Page is displayed",
+            "match": {
+              "location": "StepDefinition.Sample.page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test opening the browser functionality",
+    "description": "",
+    "id": "feature-to-test-opening-the-browser-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Sample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-11T10:53:15.255Z",
+        "line": 11,
+        "name": "Check search is successful or not",
+        "description": "",
+        "id": "feature-to-test-search-functionality;check-search-is-successful-or-not;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3293833500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the search page \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.Sample1.user_is_on_the_search_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53856100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \u0027java\u0027 data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027java\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.Sample1.user_enters_data(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5170330000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on search",
+            "match": {
+              "location": "StepDefinition.Sample1.click_on_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 689702900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to the search page",
+            "match": {
+              "location": "StepDefinition.Sample1.user_is_navigated_to_the_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test search functionality",
+    "description": "",
+    "id": "feature-to-test-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Sample1.feature",
+    "tags": []
+  }
+]
